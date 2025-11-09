@@ -23,6 +23,7 @@
 #include "libcore/gpio.h"
 #include "eg32m0xx_ll_gpio.h"
 #include "eg32m0xx_ll_adc.h"
+#include "eg32m0xx_ll_sysctrl.h"
 
 const PinInfo_TypeDef PIN_MAP[PIN_MAX] =
 {

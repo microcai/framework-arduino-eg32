@@ -109,12 +109,7 @@ uint8_t digitalRead(uint8_t pin)
   */
 void analogWrite(uint8_t pin, uint16_t value)
 {
-    if(!IS_PWM_PIN(pin))
-    {
-        return;
-    }
 
-    PWM_Write(pin, value);
 }
 
 /**
